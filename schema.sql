@@ -1,10 +1,6 @@
 -- CreditCheck database schema
 -- MySQL 8.0+ (needed later for window functions in queries.sql)
 
--- Run this once to create the tables, then load the 5 CSVs into them
--- in this order: branches, customers, loan_applications, loans, repayments
--- (this order matters because of the foreign keys below)
-
 CREATE DATABASE IF NOT EXISTS creditcheck;
 USE creditcheck;
 
